@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="man/figures/logo.png" alt="golosovRST logo" width="180">
+</p>
+
 # golosovRST
 
 <!-- Optional logo -->
