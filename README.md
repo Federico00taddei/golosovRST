@@ -85,10 +85,30 @@ mydata <- data.frame(
   s3 = c(0.086, 0.1556, 0.1971)
 )
 
-plot_rst(mydata)
 plot_rst(mydata, label_col = "country")
-rst_classify(mydata)
-rst_coords(mydata)
+cls <- rst_classify(mydata)
+crd <- rst_coords(mydata)
+
+cls
+crd
+```
+
+### Example plot
+
+![Golosov RST example plot](man/figures/README-plot-1.png)
+
+### Example output: `rst_classify(mydata)`
+
+```r
+cls
+# (paste your real printed output here)
+```
+
+### Example output: `rst_coords(mydata)`
+
+```r
+crd
+# (paste your real printed output here)
 ```
 
 ## References
