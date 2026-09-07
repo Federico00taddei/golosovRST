@@ -101,14 +101,26 @@ crd
 
 ```r
 cls
-# (paste your real printed output here)
+```
+
+```text
+   country     s1     s2     s3     sr       golosov_subtype         X         Y
+1  uk 2015 0.5080 0.3570 0.0860 0.0490  Two-Party Monovalent 0.7289048 0.2423698
+2 ita 2013 0.4714 0.1730 0.1556 0.2000 Multiparty Monovalent 0.5555556 0.5296396
+3 spa 2015 0.3514 0.2571 0.1971 0.1944 Multiparty Monovalent 0.8272261 0.7172957
 ```
 
 ### Example output: `rst_coords(mydata)`
 
 ```r
 crd
-# (paste your real printed output here)
+```
+
+```text
+   country     s1     s2     s3     sr         x         y
+1  uk 2015 0.5080 0.3570 0.0860 0.0490 0.7289048 0.2423698
+2 ita 2013 0.4714 0.1730 0.1556 0.2000 0.5555556 0.5296396
+3 spa 2015 0.3514 0.2571 0.1971 0.1944 0.8272261 0.7172957
 ```
 
 ## References
