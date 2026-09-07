@@ -1,0 +1,25 @@
+Package: golosovRST
+Type: Package
+Title: Golosov Relative Size Triangle Classification and Plotting
+Version: 0.0.1
+Authors@R: 
+    person(given = "Federico",
+           family = "Taddei",
+           role = c("aut", "cre"),
+           email = "federico.taddei@unimi.it")
+Description: Computes coordinates for the Golosov Relative Size Triangle (RST),
+    classifies party-system observations into Golosov subtypes using polygon mapping
+    and produces publication-ready Relative Size Triangle plots.
+    Method reference: Golosov, G. V. (2011) "Party system classification: A
+    methodological inquiry" <doi:10.1177/1354068810377189>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Imports:
+    ggplot2,
+    rlang
+Suggests:
+    sf,
+    testthat (>= 3.0.0),
+    dplyr
